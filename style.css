@@ -181,6 +181,10 @@ p {
 
 /* mobile */
 @media (max-width: 667px) {
+  .navbar {
+    display: none;
+  }
+
   .grid-card {
     grid-column: span 4;
   }
