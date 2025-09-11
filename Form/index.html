@@ -1,0 +1,91 @@
+<form
+  action="http://httpbin.org/anything"
+  method="post"
+>
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+  <h2>Adoption application</h2>
+
+  <p>We want you to write your information and select the cat you are interested in adopting. We will then send you the
+    questions we want answered and then if everything aligns we can book a meeting.</p>
+
+  <fieldset class="form-input">
+
+    <label>
+      <span>Name</span>
+      <input
+        type="name"
+        name="name"
+        id="name"
+        autofocus="name"
+        required="text"
+      >
+    </label>
+
+
+    <label>
+      <span>Number</span>
+      <input
+        type="text"
+        name="number"
+        id="number"
+        required="text"
+      >
+    </label>
+
+    <label>
+      <span>E-mail</span>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="example@email.com"
+        required
+      >
+    </label>
+
+    <label>
+      <span>Cat</span>
+      <select
+        name="cat"
+        id="cat"
+        required
+      >
+        <option
+          value="Select cat here"
+          disabled
+          selected
+          hidden
+        ></option>
+        <option value="Marmalade">Marmalade</option>
+        <option value="Snowball">Snowball</option>
+        <option value="Ashlyn">Ashlyn</option>
+        <option value="Tess">Tess</option>
+      </select>
+    </label>
+
+
+    <label class="checkbox">Checkbox
+      <input
+        id="checkbox"
+        type="checkbox"
+        required=""
+      >
+    </label>
+
+  </fieldset>
+
+  <button class="submit">Apply</button>
+
+
+
+</form>
+
+<div class="button-back">
+  <a href="./index.html">
+    <button>Back</button>
+  </a>
+</div>
