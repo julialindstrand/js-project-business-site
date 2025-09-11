@@ -91,7 +91,8 @@ body {
 
 /* The button */
 .button-container {
-  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -216,8 +217,8 @@ p {
 
 /* mobile */
 @media (max-width: 667px) {
-  .navbar {
-    display: none;
+  .nav-text {
+    visibility: hidden;
   }
 
   .grid-card {
