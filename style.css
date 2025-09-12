@@ -86,10 +86,15 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.grid-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px black;
+}
 
 
 
-/* The button */
+/* The "Adoption application" button */
 .button-container {
   display: flex;
   justify-content: center;
@@ -97,7 +102,7 @@ body {
 
 button {
   background: rgb(166, 190, 166);
-  border: 1px solid black;
+  border: none;
   appearance: none;
   border-radius: 4px;
   width: 400px;
@@ -113,6 +118,7 @@ button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   box-shadow: 10px 10px 5px black;
+  cursor: pointer;
 }
 
 
@@ -127,7 +133,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   width: 600px;
-  height: 1000px;
+  height: 830px;
   grid-column: span 2;
   margin: auto;
   border-radius: 40px;
@@ -136,10 +142,23 @@ button:hover {
   justify-content: space-between;
 }
 
-.grid-card:hover {
-  transform: translateY(-20px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-  box-shadow: 10px 10px 5px black;
+.read-more {
+  background: rgb(248, 248, 234);
+  border: none;
+  appearance: none;
+  border-radius: 4px;
+  width: 150px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  box-shadow: 0 1px 3px 0 black, 0 4px 6px 0 black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.read-more:hover {
+  transform: translateY(-1px);
+  box-shadow: 5px 5px 5px black;
 }
 
 /* .grid-card-article:hover {
