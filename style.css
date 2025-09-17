@@ -247,7 +247,6 @@ p {
   .navbar ul.change {
     display: block;
     animation: fadeIn 1s;
-    /* animation-timing-function: ease-in; */
   }
 
   .navbar ul {
