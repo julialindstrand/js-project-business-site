@@ -14,7 +14,6 @@ form {
   box-shadow: 0 1px 3px 0 black, 0 4px 6px 0 black;
 }
 
-
 fieldset {
   display: flex;
   flex-direction: column;
@@ -39,14 +38,12 @@ h2 {
   margin-top: 10px;
 }
 
-
 label {
   display: flex;
   flex-direction: column;
   padding: 2px;
   margin-top: 5px;
 }
-
 
 .checkbox input {
   width: 18px;
@@ -59,12 +56,12 @@ label {
   accent-color: rgb(62, 102, 62);
 }
 
-button {
+.submit {
   background: rgb(166, 190, 166);
   border: none;
   appearance: none;
   border-radius: 4px;
-  /* width: 400px; */
+  width: 100%;
   font-size: 20px;
   color: black;
   font-weight: bold;
@@ -74,12 +71,8 @@ button {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-button:hover {
+.submit:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   box-shadow: 10px 10px 5px black;
-}
-
-.button-back {
-  text-align: center;
 }

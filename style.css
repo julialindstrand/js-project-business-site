@@ -7,9 +7,6 @@ body {
 }
 
 
-
-
-
 /* The hero image */
 .hero-image {
   background: url("Pictures/Header-cat2.jpg") no-repeat center;
@@ -33,9 +30,6 @@ body {
 }
 
 
-
-
-
 /* The navigation bar */
 .navbar ul {
   display: flex;
@@ -46,9 +40,6 @@ body {
   margin: 0px;
   padding-inline-start: 0px;
 }
-
-
-
 
 .navbar a {
   color: beige;
@@ -61,9 +52,6 @@ body {
 .navbar a:hover {
   background-color: rgb(3, 43, 3);
 }
-
-
-
 
 
 /* The cards*/
@@ -96,7 +84,6 @@ body {
 }
 
 
-
 /* The "Adoption application" button */
 .button-container {
   display: flex;
@@ -125,9 +112,7 @@ button:hover {
 }
 
 
-
-
-
+/* Articles */
 .grid-card-article {
   box-shadow: 0 1px 3px 0 black, 0 4px 6px 0 black;
   background: rgb(166, 190, 166);
@@ -169,7 +154,6 @@ button:hover {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 } */
 
-
 .card-image {
   width: 300px;
   height: 450px;
@@ -183,9 +167,6 @@ button:hover {
   object-fit: cover;
   object-position: 30% 0;
 }
-
-
-
 
 
 /* Text edits */
@@ -218,9 +199,6 @@ p {
 }
 
 
-
-
-
 /* The footer */
 .footer-container {
   min-height: 100%;
@@ -232,9 +210,6 @@ p {
   color: beige;
   text-align: center;
 }
-
-
-
 
 
 /* mobile */
@@ -254,7 +229,6 @@ p {
     display: none;
   }
 
-
   .nav-container {
   margin: 6px 0;
   cursor: pointer;
@@ -264,7 +238,6 @@ p {
   padding: 5px 0;
   background-color: rgb(62, 102, 62);
   }
-
 
   .bar1, .bar2, .bar3 {
   width: 35px;
@@ -317,7 +290,6 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-column: span 4;
   }
-
 }
 
 /* desktop */
